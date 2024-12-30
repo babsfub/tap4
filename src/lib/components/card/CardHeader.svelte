@@ -1,4 +1,3 @@
-// lib/components/card/CardHeader.svelte
 <script lang="ts">
   let props = $props<{
     formattedId: string;

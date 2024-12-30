@@ -149,4 +149,8 @@
       remainingAttempts={3}
     />
   {/if}
+
+  <Card 
+    address={cardState.address}
+    formattedId={cardState.formattedId ?? ''} />
 </main>

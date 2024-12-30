@@ -1,4 +1,3 @@
-// lib/components/modals/PinModal.svelte
 <script lang="ts">
   import { cryptoService } from '$lib/services/crypto.js';
 

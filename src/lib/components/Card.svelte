@@ -1,4 +1,3 @@
-// lib/components/Card.svelte
 <script lang="ts">
   import { walletService } from '$lib/services/wallet.js';
   import type { Address } from 'viem';

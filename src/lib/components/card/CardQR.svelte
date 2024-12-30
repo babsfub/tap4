@@ -1,4 +1,4 @@
-// lib/components/card/CardQR.svelte
+
 <script lang="ts">
   let props = $props<{
     onClose: () => void;
