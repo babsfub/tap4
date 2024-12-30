@@ -17,6 +17,19 @@ export interface CardData {
   lastUpdate?: number
   ipfsHash?: string
 }
+export interface CardMetadata {
+  id: string;
+  model: number;
+  created: number;
+  address: string;
+  ipfsHash?: string;
+}
+
+export interface StoredCard extends CardMetadata {
+  encryptedKey?: string;
+  balance: string;
+  lastUpdate: number;
+}
 
 export interface Transaction {
   hash: Hash

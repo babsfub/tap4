@@ -5,6 +5,8 @@
     isDarkMode: boolean;
     children?: any; // Pour le contenu SVG injecté
   }>();
+
+  let { children } = props;
 </script>
 
 <div class="p-6">

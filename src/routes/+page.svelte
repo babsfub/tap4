@@ -153,4 +153,6 @@
   <Card 
     address={cardState.address}
     formattedId={cardState.formattedId ?? ''} />
+
+    
 </main>

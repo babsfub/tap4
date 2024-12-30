@@ -1,4 +1,4 @@
-// lib/components/Payment.svelte
+
 <script lang="ts">
   import { walletService } from '$lib/services/wallet.js';
   import { isAddress, type Address } from 'viem';
